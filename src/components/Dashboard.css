@@ -13,6 +13,65 @@
 
 }
 
+.tracks-panel-wrapper {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 21;
+}
+
+.slide-toggle-button {
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  font-size: 0.75rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+}
+
+.slide-toggle-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sliding-track-box {
+  width: 180px;
+  height: 25vh;
+  background-color: rgba(28, 36, 45, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.vehicle-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.vehicle-image {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+.distance {
+  font-size: 0.75rem;
+  color: #facc15;
+}
 
 
 
